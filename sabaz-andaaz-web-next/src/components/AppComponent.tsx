@@ -39,7 +39,7 @@ const AppComponent: React.FC = () => {
         <header className="bg-pink-100 text-gray-900 p-4 flex items-center justify-between sticky top-0 z-10">
           <div className="flex items-center">
             <Image
-              src="/images/IMG_7888.jpg" // Path to the logo in the public folder
+              src="/public/images/IMG_7888.JPG" // Path to the logo in the public folder
               alt="Sabaz Andaaz Logo"
               width={70} // Adjust width as needed
               height={70} // Adjust height as needed
