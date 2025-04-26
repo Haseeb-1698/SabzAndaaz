@@ -38,16 +38,15 @@ const AppComponent: React.FC = () => {
         {/* Header */}
         <header className="bg-pink-100 text-gray-900 p-4 flex items-center justify-between sticky top-0 z-10">
           <div className="flex items-center">
-            <Image
-              src="/public/images/IMG_7888.JPG" // Path to the logo in the public folder
-              alt="Sabaz Andaaz Logo"
-              width={70} // Adjust width as needed
-              height={70} // Adjust height as needed
-              priority // Preload the logo for faster loading
-              onError={handleImageError}
-              className="mr-4" // Margin to space it from the title
-            />
-            <h1 className="text-2xl font-bold">Sabaz Andaaz</h1>
+ <Image
+      src="https://www.mediafire.com/conv2/602ctspvrrjjziu/IMG_7888.JPG" 
+      alt="Sabaz Andaaz Logo"
+      width={70}
+      height={70}
+      priority
+      className="mr-4 rounded-full object-cover"
+    />
+    <h1 className="text-2xl font-bold">Sabaz Andaaz</h1>
           </div>
           <nav>
             <ul className="flex space-x-4 list-none">
